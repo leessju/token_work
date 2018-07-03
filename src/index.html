@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ico</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/ionicons.min.css">
+    <link rel="stylesheet" href="css/Footer-Clean.css">
+    <link rel="stylesheet" href="css/Navigation-Clean.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a class="navbar-brand" href="#">Storichain</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Welcome</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Information</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Development</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">About</a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="row" style="background-color:#ececf4;">
+        <div class="col"></div>
+        <div class="col col-7" style="background-color:#ffffff;margin:30px 0px 30px 0px;width:800px;">
+            <div class="row">
+                <div class="col col-8">
+                    <div class="row">
+                        <div class="col" style="padding:100px 0px 0px 0px;">
+                            <h1 class="text-center" style="color:#66309d;margin:30px;" id="hTime">00:00:00</h1>
+                            <h4 class="text-center" style="color:rgb(172,184,197);" id="hSaleMsg">For Sale</h4>
+                        </div>
+                        <div class="col" style="padding:40px 20px 20px 20px;">
+                            <h6 style="color:#8197a2;">Current Account</h6>
+                            <p id="pAccountAddr">XXXXX</p>
+                            <h6 style="color:#8197a2;">Token Address</h6>
+                            <p id="pTokenAddr">XXXXX</p>
+                            <h6 style="color:#8197a2;">Crowdsale Contract Address</h6>
+                            <p id="pContractAddr">XXXXX</p>
+                            <h6 style="color:#8197a2;">Name</h6>
+                            <p id="pTokenName">Tori Token</p>
+                            <h6 style="color:#8197a2;">Ticker</h6>
+                            <p id="pTokenTicker">TOR</p>
+                            <h6 style="color:#8197a2;">Total Supply</h6>
+                            <p id="pTotalSupply">00000</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="color:#8197a2;">
+                            <blockquote class="blockquote">
+                                <!-- <p class="mb-0">Here you can invest in the crowdsale campaign. At the moment, you need Metamask client to invest into the crowdsale. If you don't have Metamask, you can send ethers to the crowdsale address with a MethodID:XXXX&nbsp;</p> -->
+                                <!-- <footer
+                                    class="blockquote-footer"><strong>INVEST PAGE</strong></footer> -->
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="padding:40px 15px 15px 40px;">
+                    <div class="row">
+                        <div class="col">
+                            <h6 style="color:#8197a2;">Your balance in tokens.</h6>
+                            <p id="pBalance">0</p>
+                            <h6 style="color:#8197a2;">Choose amount to invest</h6><input class="float-left" type="number" value="0" id="txtEth">
+                            <p class="float-right" style="margin:0px 65px 0px 0px;">ETH</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col align-content-center" style="margin:20px 0px 0px 0px;"><button class="btn btn-primary btn-lg" type="button" style="width:150px;" id="btnPay">Buy</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Legacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Careers</h3>
+                        <ul>
+                            <li><a href="#">Job openings</a></li>
+                            <li><a href="#">Employee success</a></li>
+                            <li><a href="#">Benefits</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">Company Name © 2018</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app_toekn.js"></script>
+    <script>
+
+        App = {
+            web3Provider: null,
+            contracts: {},
+            account: '0x0',
+            decimals: 0,
+            init: function() {
+                return App.initWeb3();
+            },
+            initWeb3: function() {
+                
+                if (typeof web3 !== 'undefined') {
+                    App.web3Provider = web3.currentProvider;
+                    web3 = new Web3(web3.currentProvider);
+                } 
+                else {
+                    App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
+                    web3 = new Web3(App.web3Provider);
+                }
+
+                return App.initContract();
+            },
+            initContract: function() {
+                $.getJSON("ToriToken.json", function(token) {
+                    App.contracts.token = TruffleContract(token);
+                    //App.contracts.token.at('');
+                    App.contracts.token.setProvider(App.web3Provider);
+                    //App.watchForTokenEvents();
+                    App.renderToken();
+                });
+                $.getJSON("Crowdsale.json", function(sale) {
+                    App.contracts.sale = TruffleContract(sale);
+                    App.contracts.sale.setProvider(App.web3Provider);
+                    //App.watchForSaleEvents();
+                    App.renderSale();
+                });
+            },
+            watchForTokenEvents: function() {
+                App.contracts.token.deployed().then(function(instance) {
+                // Restart Chrome if you are unable to receive this event
+                // This is a known issue with Metamask
+                // https://github.com/MetaMask/metamask-extension/issues/2393
+                    instance.VotedEvent({}, {
+                        fromBlock: 0,
+                        toBlock: 'latest'
+                    }).watch(function(error, event) {
+                        console.log("event triggered", event)
+                        // Reload when a new vote is recorded
+                        App.renderToken();
+                    });
+                });
+            },
+            watchForSaleEvents: function() {
+                App.contracts.sale.deployed().then(function(instance) {
+                    instance.TokenPurchase({}, {
+                        fromBlock: 0,
+                        toBlock: 'latest'
+                    }).watch(function(error, event) {
+                        if (err === null) {
+                            App.renderSale();
+                            alert('e');
+                        }
+                        else {
+                            console.log("event triggered", event)
+                        }
+                    });
+                });
+            },
+            renderToken: function() {
+                
+                // loader.show();
+                // content.hide();
+
+                web3.eth.getCoinbase(function(err, account) {
+                    if (err === null) {
+                        App.account = account;
+                        $('#pAccountAddr').text(account);
+                    }
+                });
+                App.contracts.token.deployed().then((token) => {
+                    $('#pTokenAddr').text(token.address);
+                    token.name().then(r => {$('#pTokenName').text(r);});
+                    token.symbol().then(r => {$('#pTokenTicker').text(r);});
+
+                    token.decimals().then(r2 => { 
+
+                        App.decimals = r2;
+
+                        token.totalSupply().then(r => {
+                            $('#pTotalSupply').text(Number(r)/Number(10**App.decimals));
+                        });
+
+                        token.balanceOf(App.account).then(r => {
+                            $('#pBalance').text(Math.round(Number(r)/Number(10**App.decimals),4));
+                        });
+                    });
+
+                    
+                });
+            },
+            renderSale: function() { 
+                App.contracts.sale.deployed().then(sale => {
+                    $('#pContractAddr').text(sale.address);
+                });
+            },
+            buy: function() {
+                var eth = $('#txtEth').val();
+
+                if(eth <= 0) {
+                    alert('Please enter value more than 0.');
+                    return false;
+                }
+
+                // App.contracts.sale.deployed().then(sale => {
+                //     sale.sendTransaction({ from: purchaser, value: web3.toWei(eth, "ether")})
+                // }).then(function(r) {
+                //     App.renderSale();
+                //     console.info(r);
+                //     alert('m');
+                // });
+
+                // App.contracts.sale.deployed().sendTransaction({
+                //     from: App.account,
+                //     gas: 500000,
+                //     value: eth * (10**18)
+                // }).then(function(r) {
+                //     App.renderSale();
+                //     console.info(r);
+                //     alert('m');
+                // });
+
+                App.contracts.sale.deployed().then(sale => {
+                    sale.buyTokens(App.account, {
+                        from: App.account,
+                        value: eth * (10**18),
+                        gas: 500000
+                    }).then(r => {
+                        App.renderSale();
+                        console.info(r);
+                        location = location;
+                        //alert('m');
+                    }).catch(function(err) {
+                        console.error(err);
+                    });
+                });
+            }
+
+            // castVote: function() {
+            //     var candidateId = $('#candidatesSelect').val();
+            //     App.contracts.Election.deployed().then(function(instance) {
+            //     return instance.vote(candidateId, { from: App.account });
+            //     }).then(function(result) {
+            //     // Wait for votes to update
+            //     $("#content").hide();
+            //     $("#loader").show();
+            //     }).catch(function(err) {
+            //     console.error(err);
+            //     });
+            // }
+
+
+            // // Load contract data
+            // App.contracts.Election.deployed().then(function(instance) {
+            // electionInstance = instance;
+            // return electionInstance.candidatesCount();
+            // }).then(function(candidatesCount) {
+            // var candidatesResults = $("#candidatesResults");
+            // var candidatesSelect = $('#candidatesSelect');
+
+            // //console.info(`candidatesCount ${candidatesCount}`);
+
+            // for (var i = 1; i <= candidatesCount; i++) {
+            //     electionInstance.candidates(i).then(function(candidate) {
+            //     var id = candidate[0];
+            //     var name = candidate[1];
+            //     var voteCount = candidate[2];
+
+            //     if ( $(`#candidatesResults tr[id='tr_${id}']`).length == 0 )
+            //         candidatesResults.append(`<tr id='tr_${id}'><th>${id}</th><td>${name}</td><td id='td_${id}'>${voteCount}</td></tr>`);
+            //     else 
+            //         $(`#candidatesResults tr[id='tr_${id}']`).find(`#td_${id}`).html(`${voteCount}`);
+
+            //     if ( $(`#candidatesSelect option[id='item_${id}']`).length == 0 )
+            //         candidatesSelect.append(`<option id='item_${id}' value='${id}'>${name}</option>`);
+            //     });
+            // }
+            // return electionInstance.voters(App.account);
+            // }).then(function(hasVoted) {
+            // // Do not allow a user to vote
+            // if(hasVoted) {
+            //     $('form').hide();
+            // }
+            // loader.hide();
+            // content.show();
+            // }).catch(function(error) {
+            // console.warn(error);
+            // });
+
+
+        };
+
+        $(function() {
+            $('#pAccountAddr').text('');
+            $('#pTokenAddr').text('');
+            $('#pContractAddr').text('');
+            $('#pTokenName').text('');
+            $('#pTokenTicker').text('');
+            $('#pTotalSupply').text('');
+            $('#pBalance').text(' ');
+            $('#txtEth').val('0');
+
+            App.init();
+        });
+
+        $('#btnPay').click(function (e) { 
+            e.preventDefault();
+            App.buy();
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
